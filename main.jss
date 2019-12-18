@@ -74,3 +74,10 @@ function scaleFontSize(element) {
     // Text which is still longer will get truncated by the CSS rule ellipsis
   
 }
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="jquery.fittext.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+          $("body").fitText();
+  });
+</script>

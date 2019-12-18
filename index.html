@@ -71,19 +71,7 @@
 * {
   box-sizing: border-box;
 }
-	@media screen and (min 
-		-width: 1200px) {
-  .col-md {
-    font-size:15px;
-  }
-}
-	@media screen and (min-width: 600px) {
-  .col-sm {
-    font-size:1px;
-  }
-}
-
-
+	
 /* Clear floats after the columns */
 
 
@@ -105,6 +93,32 @@
     width: 100%;
   }
 }
+	@media screen and (max-width: 767px) {
+    body {
+        font-size: 0.9em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.3em;
+    }
+}
 </style>
 	
 </head>
@@ -114,9 +128,12 @@
 	
  
 <div class="container">
-<div class="row h-100" style="bg-color:#00d8ff">
-<nav class="navbar navbar-default navbar-fixed-top bg-primary " >
-	<div class="container-fluid">
+<div class="row justify-content-center">
+<div class="col-sm-12 col-md-8 col-xl-8">
+<div class="row justify-content-center h-100"  >
+<div class="col" >
+<nav class="navbar navbar-default navbar-fixed-top bg-secondary "  style="bg-color:#00ff27">
+	<div class="container-fluid"  style="background-color:rosybrown">
 	<div class="navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
             <!-- Toggle Button [handles opening navbar components on mobile screens]-->
 		<a class="navbar-brand" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-target:"#dropdown" >HOME</a>
@@ -131,7 +148,7 @@
   
 	<!----------------->
   
-	  <div class=" collapse navbar-collapse" id="exampleNavComponents" bg-color="red">
+	  <div class=" collapse navbar-collapse" id="exampleNavComponents" >
 		  <div class="navbar-nav ml-auto">
 	<div class="dropdown navbar-left" >
 		<button class="  ml-30 mr-30 btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -218,57 +235,59 @@
 	</div>
 		
   </nav>
+</div>
 </div>	
-<div class="container-fluid ">
-	<div class="row h-300 ">
+<div class="container-fluid"style="background-color:#1d2726">
+
+	<div class="d-flex row " style="background-color:#1d2726"  >
 	
-	
-	<div class=" mt-40  ml-0 col-sm-12 col-md-3 ml-auto ">
+	<div class="container-fluid">
+		
+		
+	<div class=" mt-40  ml-0 col-sm-12 col-md-2 col-xl-2 col-lg-2 " style="background-color:#1d2726">
 		<img src="image/logo_left.png">
 	</div>
 	
 	
-	<div class=" mt-40 ml-0 col-sm-12 col-md-9 ml-auto">
-		<h1>VIQARUNNISA NOON SCHOOL AND COLLEGE</h1>
-	</div>
-		
+	<div class="  mt-40 ml-0 col-sm-12 col-md-6 col-xl-6 col-lg-6 flex-grow-1"  style="background-color:#1d2726">
+		<b><h1 style="color:red" >VIQARUNNISA NOON SCHOOL AND COLLEGE</h1></b>
 	</div>
 	
+	</div>
+	</div>
 </div>
 
 	 
 		
 	
 
-<div class="container-fluid bg-red">	
+<div class="container-fluid "  style="background-color:#2c052c">	
 
   <div class="row">
-    <div class=" pt-3 col-md-12">
-     <h1>GALLERY</h1>
-      <div class="carousel slide multi-item-carousel" id="theCarousel">
+    <div class=" pt-3 col-md-8 col-xl-8" style="background-color:#2c052c">
+     <h1 style="color:wheat">GALLERY</h1>
+      <div class="carousel slide multi-item-carousel" id="theCarousel" style="background-color:violet">
         <div class="carousel-inner">
           <div class="item active">
-            <div class="col-xs-4 col-md-6"><a href="#1"><img src="image/d1.png" ></a></div>
+            <div class="col-xs-12 col-md-6"><a href="#1"><img src="image/d1.png" ></a></div>
           </div>
           <div class="item">
-            <div class="col-xs-4 col-md-6"><a href="#1"><img  class="img-fluid"src="image/d2.png" ></a></div>
+            <div class="col-xs-12 col-md-6"><a href="#1"><img  class="img-fluid"src="image/d2.png" ></a></div>
           </div>
           <div class="item">
-            <div class="col-xs-4 col-md-6"><a href="#1"><img class="img-fluid" src="image/d4.png" ></a></div>
+            <div class="col-xs-12 col-md-6"><a href="#1"><img class="img-fluid" src="image/d4.png" ></a></div>
           </div>
           
           <div class="item">
-            <div class="col-xs-4 col-md-6"><a href="#1"><img class="img-fluid" src="image/Untitled2.png" ></a></div>
+            <div class="col-xs-12 col-md-6"><a href="#1"><img class="img-fluid" src="image/Untitled2.png" ></a></div>
           </div>
           <div class="item">
-            <div class="col-xs-4 col-md-6"><a href="#1"><img class="img-fluid" src="image/download%20(56).png" ></a></div>
+            <div class="col-xs-12 col-md-6"><a href="#1"><img class="img-fluid" src="image/download%20(56).png" ></a></div>
           </div>
           <!-- add  more items here -->
           <!-- Example item start:  -->
           
-          <div class="item">
-            <div class="col-xs-4 col-md-4"><a href="#1"><img src="image/Untitled99.png" class="img-responsive"></a></div>
-          </div>
+          
           
           <!--  Example item end -->
         </div>
@@ -278,16 +297,16 @@
     </div>
   </div>
 </div>
-<div class="container-fluid">
+<div class="container-fluid" style="background-color: #a0c624">
   <div class="row">
   
-    <div class="card-deck h-400">
-      <div class="  col-md-8 col-sm-12">
+    <div class="card-deck h-400" >
+      <div class="  col-md-8 col-sm-12" style="background-color: #26411f">
         
-        <div class=" card card-body h-400 ">
+        <div class=" card-fluid"  >
          
           
-          <p class="card-text" >Viqarunnisa Noon School & College (Bengali: ভিকারুননিসা নূন স্কুল এন্ড কলেজ) is an all-girls educational institute in Baily Road, Dhaka, Bangladesh. It has 4 campuses and around 25,000 students. Viqarunnisa Noon School & College is one of the renowned educational institutes in Bangladesh. It has a glorious past. It was established in 1952 by Begum Viqarunnisa Noon, wife of Mr. Firoz Khan Noon who was the  governor of East Pakistan. From beginning to until now, this academic institute is keeping its image equally remarkable in the sky of educational institutions.
+          <p class="card-text" style="color:white" >Viqarunnisa Noon School & College (Bengali: ভিকারুননিসা নূন স্কুল এন্ড কলেজ) is an all-girls educational institute in Baily Road, Dhaka, Bangladesh. It has 4 campuses and around 25,000 students. Viqarunnisa Noon School & College is one of the renowned educational institutes in Bangladesh. It has a glorious past. It was established in 1952 by Begum Viqarunnisa Noon, wife of Mr. Firoz Khan Noon who was the  governor of East Pakistan. From beginning to until now, this academic institute is keeping its image equally remarkable in the sky of educational institutions.
 
 <b>Our Programs</b>: unique in nature. Our students evaluate us as unconventional and extraordinary in the teaching strategies we adhere to. For every program we have scientifically designed course curriculum and study materials – that really make us distinguished.<br>
 <b>Our Faculty</b>: our strength. Our faculty body consists of experienced, erudite and trained teachers. We pay equal importance to teaching skills, personal and academic background and experience. From a large number of prospective qualified teachers, only outstanding performers are finally selected as teaching assistants who gradually obtain the position of an honorable faculty. </p>
@@ -295,14 +314,14 @@
         
         </div>
       </div>
-      <div class="  col-md-4 col-sm-12 ">
+      <div class="  col-md-4 col-sm-12 "  style="background-color: #41311f" >
         
         
-        <div class=" card card-body h-400">
+        <div class="  card-fluid h-400">
          
           
-          <p>
-          	<marquee direction="up" >XII HSC Form Fill up Fees Notice 2018-2019<br>
+          <p >
+          	<marquee direction="up"  style="color:red">XII HSC Form Fill up Fees Notice 2018-2019<br>
 			XII Fees Notice - Bashundhara Branch
 			<br>Annual Examination Routine -2019</marquee>
           </p>
@@ -314,15 +333,16 @@
     
   </div>
 </div>
-	<div class="container-fluid">
+ 
+ <div class="container-fluid" style="background-color:rosybrown">
   <div class="row">
   
-    <div class="card-deck h-1000">
-      <div class="  col-md-6 col-sm-12 py-2 h-1000">
+    <div class="card-deck  ">
+      <div class="  col-md-4 col-sm-12 py-2 ">
         
         <div class=" card card-body  ">
          
-          <h3>Dear Guardians, lass One Admission  (2020 Session) Procedure is going on</h3>
+          <h3 >Dear Guardians, lass One Admission  (2020 Session) Procedure is going on</h3>
           <p class="card-text" >Application Date: 29 Oct 2019 to 12 Nov 2019
 Application form Submittion Date: 14 Nov 2019 to 15 Nov 2019
 Selected Applicant list for lottery publishing Date: 23 Nov 2019
@@ -333,39 +353,48 @@ Admission Date: 22 Dec 2019 (10:00 AM) to  24 Dec 2019 (11:59PM)</p>
         
         </div>
       </div>
-      <div class="  col-md-6 col-sm-12 py-2  h-1000">
+      <div class="  col-md-4 col-sm-12 py-2  ">
         
         
-        <div class=" row">
+        
          
           
 		    <div class=card>
-			<div class="card-header"><h2>CHAIRMAN</h2></div>
-			<div class=" card card-body h-500">
+			<div class="card-header" style="color:red"><b><h2>CHAIRMAN</h2></b></div>
+			<div class=" card card-body " style="background-color:#1d2726">
 				<img class="card-img-top" src="image/Untitled66.png" alt="image">
 				<div class="card-footer pb-2">
-				<a href="#" class="btn btn-primary stretched-link">See Profile</a>
+				<a href="#" class="btn btn-warning stretched-link">See Profile</a>
 				</div>
 			</div>
 			</div>
-		</div>
-		<div class="row">
-		<div class=card>
-			<div class="card-header"><h2>CHAIRMAN</h2></div>
-			<div class=" card card-body h-500">
+			
+		
+		
+		
+		
+	</div>
+       <div class="  col-md-4 col-sm-12 py-2  h-500">
+        
+        
+        
+         
+          
+		    <div class=card>
+			<div class="card-header" style="color:red"><b><h2>principal</h2></b></div>
+			<div class=" card card-body " style="background-color:#1d2726">
 				<img class="card-img-top" src="image/Untitled88.png" alt="image">
 				<div class="card-footer pb-2">
-				<a href="#" class="btn btn-primary stretched-link">See Profile</a>
-								
-				
-				
-
+				<a href="#" class="btn btn-warning stretched-link">See Profile</a>
+				</div>
 			</div>
 			</div>
-		</div>
-		</div>
-	</div>
-          
+			
+		
+		
+		
+		
+	</div>   
           
         
       
@@ -373,48 +402,84 @@ Admission Date: 22 Dec 2019 (10:00 AM) to  24 Dec 2019 (11:59PM)</p>
     </div>
     
   </div>
+  <div class="container-fluid"style="background-color:#1d2726">
 
+	<div class="d-inline-flex row " style="background-color:#1d2726"  >
 	
+	<div class="card-deck">
+		
+	
+		
+		
+	<div class="ml-5 mr-5  pl-5 pr-5 col-sm-12 col-md-2 col-xl-2 col-lg-2 " style="background-color:#1d2726">
+	<div class=" card-fluid   " style="color:white"></div>
+	   
+          
+			  <li><a href="#"><p class="card-text" style="color:white">EDUCATION BOARD RESULT</p></a></li>
+          	<li><a href="#"><p class="card-text" style="color:white">DHAKA EDUCATION BOARD</p></a></li>
+          	<li><a href="#"> <p class="card-text" style="color:white">DIRECTORATE OF PRIMARY EDUCATION</p></a></li>
+          	<li><a href="#"><p class="card-text" style="color:white">MINISTRY OF EDUCATION</p></a></li>
+          	<li><a href="#"><p class="card-text" style="color:white">TEACHERS PORTAL</p></a></li>
+          	<li><a href="#"><p class="card-text" style="color:white">NATIONAL CURRICULUM& BOOK</p></a></li>
+          
+          
+	</div>
+	
+	
+	<div class=" ml-5 mr-5 pl-5 pr-5  col-sm-12 col-md-6 col-xl-6 col-lg-6 flex-grow-1"  style="background-color:#1d2726">
+		<div class="  card-fluid" style="color:white" >
+         <p class="card-text" style="color:white">
+          
+          
+          	1/A, New Baily Road, Dhaka- 1000<br>
+          	02-58310500<br>
+          	vnsc_bd@yahoo.com, vnsc.edu@gmail.com
+			</p>
+        </div>
+	</div>
+	</div>
+	
+	</div>
+</div>
 
+ 
 <div class="container-fluid">
-	<div class="row h-450">
-<div class="col-sm-4 col-md-4 col-lg-4">		
-<div class="container-fluid">		
-<h4>NECESsary link</h4>
-<ul>
-	<li>EDUCATION RESULT</li>
-	<li>DHAKA EDUCATION BOARD</li>
-	<li>DC OFFICE</li>
-	<li>NATIONAL CURRICULUM & TEXTBOOK BOARD</li>
-	<li>MINISTRY OF EDUCATION</li>
-	<li>DIRECTORATE OF PRIMARY EDUCATION</li>
-	<li>TEACHERS PORTAL</li>
-	
-</ul>
-</div>
-</div>
-	<div class="col-sm-4 col-md-4 col-lg-4">		
-<div class="container-fluid">		
-<div class="map-responsive">
-   <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
-		</div>
-		</div>
-		<div class="col-sm-4 col-md-4 col-lg-4">		
-         <ul>
-	<li>1/A, New Baily Road, Dhaka- 1000
-</li>
-	<li>02-58310500</li>
-	<li>vnsc_bd@yahoo.com, vnsc.edu@gmail.com</li>
+  
+  
+    
+      <div class="map-responsive">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3652.147752212912!2d90.407065!3d23.74211!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4df20dee9b73140e!2sViqarunnisa%20Noon%20School%20and%20College!5e0!3m2!1sen!2sus!4v1576602099122!5m2!1sen!2sus" width="1200" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+  </div>
+
+	  
+
 	
 	
-</ul>
-		</div>	
-</div>		
+ 
+
+</div>
+<div class="container-fluid" style="background-color: darkblue">
+<div class="row h-20" style="background-color: darkblue">
+<div class="col-sm-12 col-md-12 col-lg-12"  style="background-color: darkblue">
+	<p style="color:white">Copyright @ 2015, Viqarunnisa Noon School & College
+
+Powered by ODHYYON, A product of ADDIE Soft Ltd.</p>
+</div>
+	</div>
 </div>	
-</div>	
-	
+	</div>	
+	</div>
+	</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="jquery.fittext.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+          $("body").fitText();
+  });
+</script>	
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    
 </body>
 </html>

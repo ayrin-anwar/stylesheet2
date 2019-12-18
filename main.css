@@ -9,8 +9,8 @@ body {
 .container{
 	margin:0 auto;
 	width:1200px;
-	background:#00baff;
-	height:2200px;
+	background:white;
+	height:2000px;
 }
 .row1{
 	height:150px;
